@@ -1,0 +1,19 @@
+public class Main {
+  public static void main(String[] args) {
+    int x = 200;
+    int y = 100;
+   
+    if (x > y) {
+      System.out.println(x + " is greater than 100");
+    } else if (x < y) {
+      System.out.println(x + "is less than 100");
+    }  else {
+      System.out.println(x + "is equal to 100");
+    }
+    
+    System.out.println("additional: "+ (x + y));
+    System.out.println("subtraction: "+ (x - y));
+    System.out.println("multiplication: "+ (x * y));
+    System.out.println("division: "+ (x / y));
+  }
+}
